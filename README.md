@@ -1,8 +1,29 @@
-# KhoLuuTru (Virtual Storage Plugin)
+<div align="center">
+
+![KhoLuuTru Version](https://img.shields.io/badge/KHOLUUTRU-1.0-2ea44f?style=for-the-badge)
+
+# 💎 KhoLuuTru 1.0
+
+*Plugin kho khoáng sản nâng cao cho server Skyblock — phát triển bởi*<br>
+***Tài Dev Nguyễn***
+
+---
+
+![Minecraft](https://img.shields.io/badge/Minecraft-1.21%2B-2ea44f?style=flat-square)
+![Java](https://img.shields.io/badge/Java-21%2B-orange?style=flat-square)
+![Database](https://img.shields.io/badge/Database-SQLite-blue?style=flat-square)
+![Economy](https://img.shields.io/badge/Economy-Vault-yellow?style=flat-square)
+![API](https://img.shields.io/badge/API-PlaceholderAPI-purple?style=flat-square)
+
+![Type](https://img.shields.io/badge/Type-Skyblock_Storage-ff69b4?style=flat-square)
+![Author](https://img.shields.io/badge/Author-Tài_Nguyễn-gray?style=flat-square)
+![License](https://img.shields.io/badge/License-Private-red?style=flat-square)
+
+</div>
+
+---
 
 **KhoLuuTru** là một plugin Minecraft đột phá dành cho máy chủ Paper/Folia (phiên bản 1.21+). Plugin này mang đến hệ thống "Kho Ảo" thông minh, giúp người chơi tự động lưu trữ tài nguyên khoáng sản thu thập được mà không lo đầy túi đồ.
-
-![Banner](https://via.placeholder.com/1200x400.png?text=KhoLuuTru+Banner)
 
 ---
 
