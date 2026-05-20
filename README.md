@@ -50,21 +50,6 @@
 4. Tùy chỉnh danh sách vật phẩm tự động nhặt tại `plugins/KhoLuuTru/config.yml`.
 
 ---
-
-## 📸 Hình Ảnh Giao Diện (Screenshots)
-
-*Dưới đây là một số hình ảnh thực tế của plugin trong trò chơi:*
-
-| Giao Diện Kho Chính | Giao Diện Menu Cất Nhanh |
-|:---:|:---:|
-| ![Kho Chính](https://via.placeholder.com/400x250.png?text=Giao+Dien+Kho+Chinh) | ![Menu Cat Nhanh](https://via.placeholder.com/400x250.png?text=Menu+Cat+Nhanh) |
-| *Giao diện quản lý toàn bộ tài nguyên (GUI)* | *Menu xuất hiện khi click thẳng vào vật phẩm* |
-
-| Quản Lý Danh Sách (Whitelist) | Hệ Thống Bán Đồ (Sell) |
-|:---:|:---:|
-| ![Whitelist](https://via.placeholder.com/400x250.png?text=Quan+Ly+Whitelist) | ![Sell](https://via.placeholder.com/400x250.png?text=Giao+Dien+Ban+Do) |
-| *Thêm/Xóa vật phẩm được tự động nhặt* | *Bán khoáng sản lấy tiền trực tiếp trong kho* |
-
 ---
 
 ## 🎮 Lệnh & Quyền (Permissions)
@@ -89,7 +74,7 @@
 
 ## 🎥 Video Hướng Dẫn (Video Tutorial)
 
-[![Video Huong Dan](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![Video Huong Dan](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)]([https://www.youtube.com/watch?v=YOUR](https://youtu.be/yqa4h8YieXo)_VIDEO_ID)
 
 *(Nhấn vào hình ảnh phía trên để xem video giới thiệu và hướng dẫn chi tiết cách sử dụng plugin từ tác giả)*
 
