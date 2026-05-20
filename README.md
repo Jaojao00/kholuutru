@@ -74,7 +74,7 @@
 
 ## 🎥 Video Hướng Dẫn (Video Tutorial)
 
-[![Video Huong Dan](https://via.placeholder.com)_VIDEO_ID)
+[![Video Huong Dan]([https://via.placeholder.com](https://youtu.be/yqa4h8YieXo))_VIDEO_ID)
 
 *(Nhấn vào hình ảnh phía trên để xem video giới thiệu và hướng dẫn chi tiết cách sử dụng plugin từ tác giả)*
 
