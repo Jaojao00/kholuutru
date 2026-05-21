@@ -5,7 +5,7 @@
 # 💎 KhoLuuTru 1.0
 
 *Plugin kho khoáng sản nâng cao cho server Skyblock — phát triển bởi*<br>
-***Tài Dev Nguyễn***
+***Tài Dev Nguyễn*** 
 
 ---
 
