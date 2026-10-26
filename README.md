@@ -5,7 +5,7 @@
 # 💎 KhoLuuTru 1.0
 
 *Plugin kho khoáng sản nâng cao cho server Skyblock — phát triển bởi*<br>
-***Tài Dev Nguyễn*** 
+***Tài Dev Nguyễn***
 
 ---
 
@@ -32,9 +32,10 @@
 - **Tự Động Thu Thập (Auto-Pickup):** Vật phẩm đào được (đặc biệt là quặng/khoáng sản) sẽ tự động bay thẳng vào Kho Ảo thay vì rớt ra đất hay lấp đầy túi đồ.
 - **Tương thích Custom Enchants & MMOItems:** Hệ thống nhận diện thông minh hỗ trợ 100% các loại cúp có bùa Autosmelt hoặc bùa hiệu suất (Efficiency) siêu cao từ các plugin bên thứ ba.
 - **Hút luôn Kinh Nghiệm (EXP):** Không chỉ vật phẩm, các điểm kinh nghiệm đào được cũng tự động nạp thẳng vào thanh kinh nghiệm của người chơi.
+- **Nén Khối Nhanh (Quick Craft):** Chế tạo block nhanh trực tiếp trong kho (tỉ lệ 9:1) không cần bàn chế tạo. Hỗ trợ phân quyền số lượng block và thời gian hồi chiêu theo cấp bậc (Member, VIP, VIP+, Admin).
+- **Hệ Thống Đối Tác An Toàn (Partner System):** Mời đối tác có xác nhận (Đồng ý / Từ chối qua chat/GUI). Cơ chế bảo vệ chống lạm phát: chặn rút đồ trộm, chặn bán đồ của đối tác, giới hạn số lượng đối tác theo rank.
 - **Quản lý Danh sách trắng (Kholist):** Quản trị viên và người chơi (nếu được cấp quyền) có thể dễ dàng quản lý những vật phẩm nào được phép chui vào kho thông qua giao diện GUI thân thiện.
 - **Giao dịch Trực tiếp:** Hỗ trợ bán vật phẩm thẳng từ kho để lấy tiền (Tích hợp Vault).
-- **Hệ thống Đối tác (Partner):** Chia sẻ quyền truy cập kho với bạn bè một cách an toàn và minh bạch.
 - **Hỗ trợ Folia & Paper:** Thiết kế tối ưu đa luồng, hỗ trợ hoàn hảo cho cả Paper và kiến trúc Regionized của Folia.
 
 ## 📦 Yêu cầu hệ thống
@@ -44,12 +45,11 @@
 
 ## 🚀 Cài Đặt
 
-1. Tải phiên bản mới nhất tại mục [Releases](#).
-2. Chép tệp `KhoLuuTru-1.0-SNAPSHOT-all.jar` vào thư mục `plugins` của máy chủ.
+1. Tải phiên bản mới nhất tại mục [Releases](https://github.com/Jaojao00/kholuutru/releases/latest).
+2. Chép tệp `KhoLuuTru-1.0.0.jar` vào thư mục `plugins` của máy chủ.
 3. Khởi động lại máy chủ (hoặc dùng `/reload confirm`).
-4. Tùy chỉnh danh sách vật phẩm tự động nhặt tại `plugins/KhoLuuTru/config.yml`.
+4. Tùy chỉnh cấu hình tại `plugins/KhoLuuTru/config.yml`.
 
----
 ---
 
 ## 🎮 Lệnh & Quyền (Permissions)
@@ -60,21 +60,31 @@
 | `/kho auto` | Bật/tắt chế độ tự động nhặt cá nhân. | `kho.use` |
 | `/kho sell` | Mở giao diện bán vật phẩm. | `kho.use` |
 | `/kho partner` | Mở giao diện quản lý Đối tác. | `kho.use` |
+| `/kho partner add <tên>` | Gửi lời mời đối tác cho người chơi khác. | `kho.use` |
+| `/kho partner accept <tên>` | Chấp nhận lời mời đối tác. | `kho.use` |
+| `/kho partner deny <tên>` | Từ chối lời mời đối tác. | `kho.use` |
+| `/kho partner remove <tên>` | Hủy liên kết đối tác. | `kho.use` |
+| `/kho partner list` | Xem danh sách đối tác hiện tại. | `kho.use` |
 | `/kho filter` | Mở giao diện lọc (chặn/nhặt) vật phẩm. | `kho.use` |
 | `/kho admin reload` | Tải lại tệp cấu hình config.yml. | `kho.admin` |
 
 *Ghi chú: Lệnh `/kho` có thể thay thế bằng các alias như `/storage`, `/kholuutru`.*
 
+### Phân quyền theo cấp bậc (Rank Permissions)
+- **Quyền giới hạn đối tác:** `kho.partner.limit.1` (Mặc định), `kho.partner.limit.3` (VIP), `kho.partner.limit.5` (VIP+), `kho.partner.unlimited` (Admin).
+- **Quyền nén khối nhanh:** `kho.craft.vip`, `kho.craft.vip+`, `kho.craft.admin`.
+
 ## 📖 Hướng Dẫn Nhanh
 
-- **Thêm đồ vào kho siêu tốc:** Mở `/kho`, sau đó nhấp chuột vào món đồ bạn muốn cất ở nửa dưới màn hình (túi đồ cá nhân). Bấm "Cất" để chuyển đồ.
+- **Thêm đồ vào kho siêu tốc:** Mở `/kho`, sau đó nhấp chuột vào món đồ bạn muốn cất ở nửa dưới màn hình (túi đồ cá nhân). Bấm "Cất" để chuyển đồ. Hoặc bấm nút **Cất nhanh** (slot 52) để gom toàn bộ khoáng sản vào kho trong 1 click.
+- **Nén khoáng sản thành block:** Trong `/kho`, click vào khoáng sản (than, sắt, kim cương...) ➔ Bấm vào biểu tượng ở **ô số 18** để nén block nhanh.
 - **Quản lý danh sách tự động nhặt:** Trong `/kho`, bấm vào biểu tượng Cuốn Sách ở góc dưới để mở danh sách Kholist. Bạn có thể bấm vào đồ trong túi để thêm vào danh sách, hoặc bấm vào đồ trên menu để xóa.
 
 ---
 
 ## 🎥 Video Hướng Dẫn (Video Tutorial)
 
-[![Video Huong Dan]([[https://via.placeholder.com](https://youtu.be/yqa4h8YieXo))_VIDEO_ID](https://youtu.be/yqa4h8YieXo?si=gkySdvsoM9UtMXXE))
+[![Video Huong Dan](https://img.youtube.com/vi/yqa4h8YieXo/maxresdefault.jpg)](https://youtu.be/yqa4h8YieXo?si=gkySdvsoM9UtMXXE)
 
 *(Nhấn vào hình ảnh phía trên để xem video giới thiệu và hướng dẫn chi tiết cách sử dụng plugin từ tác giả)*
 
