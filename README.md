@@ -1,8 +1,12 @@
 <div align="center">
 
+<img src="assets/logo.jpg" alt="TN-KhoLuuTru Logo" width="280" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);"/>
+
+<br><br>
+
 ![KhoLuuTru Version](https://img.shields.io/badge/KHOLUUTRU-1.0-2ea44f?style=for-the-badge)
 
-# 💎 KhoLuuTru 1.0
+# 💎 TN-KhoLuuTru 1.0
 
 *Plugin kho khoáng sản nâng cao cho server Skyblock — phát triển bởi*<br>
 ***Tài Dev Nguyễn***
