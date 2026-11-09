@@ -149,6 +149,7 @@ Plugin được thiết kế với trọng tâm **chống lạm phát & chống 
 | Lệnh | Chức năng | Quyền |
 |---|---|---|
 | `/kho admin reload` | Tải lại cấu hình | `kho.admin` |
+| `/kho admin language <vi|en>` | Chuyển đổi ngôn ngữ (Tiếng Việt / English) | `kho.admin` |
 | `/kho admin info <người chơi>` | Xem thông tin kho của người chơi | `kho.admin` |
 | `/kho admin setcapacity <người chơi> <số>` | Đặt dung lượng kho | `kho.admin` |
 | `/kho admin kholist add <material>` | Thêm vật phẩm vào Kholist | `kho.admin` |
